@@ -1,0 +1,82 @@
+[
+    {
+        "titulo": "Nona Fitness Tank",
+        "conteudo": "This is a variable product called a Nona Fitness Tank",
+        "preco": "$39.00"
+    },
+    {
+        "titulo": "Fiona Fitness Short",
+        "conteudo": "This is a variable product called a Fiona Fitness Short",
+        "preco": "$29.00"
+    },
+    {
+        "titulo": "Tiffany Fitness Tee",
+        "conteudo": "This is a variable product called a Tiffany Fitness Tee",
+        "preco": "$28.00"
+    },
+    {
+        "titulo": "Desiree Fitness Tee",
+        "conteudo": "This is a variable product called a Desiree Fitness Tee",
+        "preco": "$24.00"
+    },
+    {
+        "titulo": "Atlas Fitness Tank",
+        "conteudo": "This is a variable product called a Atlas Fitness Tank",
+        "preco": "$18.00"
+    },
+    {
+        "titulo": "Sinbad Fitness Tank",
+        "conteudo": "This is a variable product called a Sinbad Fitness Tank",
+        "preco": "$29.00"
+    },
+    {
+        "titulo": "Erikssen CoolTech™ Fitness Tank",
+        "conteudo": "This is a variable product called a Erikssen CoolTech™ Fitness Tank",
+        "preco": "$29.00"
+    },
+    {
+        "titulo": "Orestes Fitness Short",
+        "conteudo": "This is a variable product called a Orestes Fitness Short",
+        "preco": "$35.00"
+    },
+    {
+        "titulo": "Cobalt CoolTech™ Fitness Short",
+        "conteudo": "This is a variable product called a Cobalt CoolTech™ Fitness Short",
+        "preco": "$44.00"
+    },
+    {
+        "titulo": "Aero Daily Fitness Tee",
+        "conteudo": "This is a variable product called a Aero Daily Fitness Tee",
+        "preco": "$24.00"
+    },
+    {
+        "titulo": "Proteus Fitness Jackshirt",
+        "conteudo": "This is a variable product called a Proteus Fitness Jackshirt",
+        "preco": "$45.00"
+    },
+    {
+        "titulo": "Zing Jump Rope",
+        "conteudo": "This is a simple product called Zing Jump Rope",
+        "preco": "$12.00"
+    },
+    {
+        "titulo": "Zoe Tank",
+        "conteudo": "This is a variable product called a Zoe Tank",
+        "preco": "$29.00"
+    },
+    {
+        "titulo": "Ariel Roll Sleeve Sweatshirt",
+        "conteudo": "This is a variable product called a Ariel Roll Sleeve Sweatshirt",
+        "preco": "$39.00"
+    },
+    {
+        "titulo": "Sparta Gym Tank",
+        "conteudo": "This is a variable product called a Sparta Gym Tank",
+        "preco": "$29.00"
+    },
+    {
+        "titulo": "Meteor Workout Short",
+        "conteudo": "This is a variable product called a Meteor Workout Short",
+        "preco": "$32.50"
+    }
+]
