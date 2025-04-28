@@ -1,0 +1,57 @@
+[
+    {
+        "titulo": "Ariel Roll Sleeve Sweatshirt",
+        "conteudo": "This is a variable product called a Ariel Roll Sleeve Sweatshirt",
+        "preco": "$39.00"
+    },
+    {
+        "titulo": "Cassia Funnel Sweatshirt",
+        "conteudo": "This is a variable product called a Cassia Funnel Sweatshirt",
+        "preco": "$48.00"
+    },
+    {
+        "titulo": "Phoebe Zipper Sweatshirt",
+        "conteudo": "This is a variable product called a Phoebe Zipper Sweatshirt",
+        "preco": "$59.00"
+    },
+    {
+        "titulo": "Ajax Full-Zip Sweatshirt",
+        "conteudo": "This is a variable product called a Ajax Full-Zip Sweatshirt",
+        "preco": "$69.00"
+    },
+    {
+        "titulo": "Grayson Crewneck Sweatshirt",
+        "conteudo": "This is a variable product called a Grayson Crewneck Sweatshirt",
+        "preco": "$64.00"
+    },
+    {
+        "titulo": "Mach Street Sweatshirt",
+        "conteudo": "This is a variable product called a Mach Street Sweatshirt",
+        "preco": "$62.00"
+    },
+    {
+        "titulo": "Hollister Backyard Sweatshirt",
+        "conteudo": "This is a variable product called a Hollister Backyard Sweatshirt",
+        "preco": "$52.00"
+    },
+    {
+        "titulo": "Frankie Sweatshirt",
+        "conteudo": "This is a variable product called a Frankie Sweatshirt",
+        "preco": "$60.00"
+    },
+    {
+        "titulo": "Helena Hooded Fleece",
+        "conteudo": "This is a variable product called a Helena Hooded Fleece",
+        "preco": "$55.00"
+    },
+    {
+        "titulo": "Selene Yoga Hoodie",
+        "conteudo": "This is a variable product called a Selene Yoga Hoodie",
+        "preco": "$42.00"
+    },
+    {
+        "titulo": "Autumn Pullie",
+        "conteudo": "This is a variable product called a Autumn Pullie",
+        "preco": "$57.00"
+    }
+]

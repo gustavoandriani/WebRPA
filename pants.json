@@ -1,0 +1,62 @@
+[
+    {
+        "titulo": "Carina Basic Capri",
+        "conteudo": "This is a variable product called a Carina Basic Capri",
+        "preco": "$51.00"
+    },
+    {
+        "titulo": "Cora Parachute Pant",
+        "conteudo": "This is a variable product called a Cora Parachute Pant",
+        "preco": "$75.00"
+    },
+    {
+        "titulo": "Ida Workout Parachute Pant",
+        "conteudo": "This is a variable product called a Ida Workout Parachute Pant",
+        "preco": "$48.00"
+    },
+    {
+        "titulo": "Karmen Yoga Pant",
+        "conteudo": "This is a variable product called a Karmen Yoga Pant",
+        "preco": "$39.00"
+    },
+    {
+        "titulo": "Aether Gym Pant",
+        "conteudo": "This is a variable product called a Aether Gym Pant",
+        "preco": "$74.00"
+    },
+    {
+        "titulo": "Livingston All-Purpose Tight",
+        "conteudo": "This is a variable product called a Livingston All-Purpose Tight",
+        "preco": "$75.00"
+    },
+    {
+        "titulo": "Thorpe Track Pant",
+        "conteudo": "This is a variable product called a Thorpe Track Pant",
+        "preco": "$68.00"
+    },
+    {
+        "titulo": "Kratos Gym Pant",
+        "conteudo": "This is a variable product called a Kratos Gym Pant",
+        "preco": "$57.00"
+    },
+    {
+        "titulo": "Supernova Sport Pant",
+        "conteudo": "This is a variable product called a Supernova Sport Pant",
+        "preco": "$45.00"
+    },
+    {
+        "titulo": "Geo Insulated Jogging Pant",
+        "conteudo": "This is a variable product called a Geo Insulated Jogging Pant",
+        "preco": "$51.00"
+    },
+    {
+        "titulo": "Viktor LumaTech™ Pant",
+        "conteudo": "This is a variable product called a Viktor LumaTech™ Pant",
+        "preco": "$46.00"
+    },
+    {
+        "titulo": "Caesar Warm-Up Pant",
+        "conteudo": "This is a variable product called a Caesar Warm-Up Pant",
+        "preco": "$35.00"
+    }
+]
