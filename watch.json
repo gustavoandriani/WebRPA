@@ -1,47 +1,47 @@
 [
     {
-        "titulo": "Cruise Dual Analog Watch",
-        "conteudo": "This is a simple product called Cruise Dual Analog Watch",
+        "produto": "Cruise Dual Analog Watch",
+        "descricao": "This is a simple product called Cruise Dual Analog Watch",
         "preco": "$55.00"
     },
     {
-        "titulo": "Dash Digital Watch",
-        "conteudo": "This is a simple product called Dash Digital Watch",
+        "produto": "Dash Digital Watch",
+        "descricao": "This is a simple product called Dash Digital Watch",
         "preco": "$92.00"
     },
     {
-        "titulo": "Luma Analog Watch",
-        "conteudo": "This is a simple product called Luma Analog Watch",
+        "produto": "Luma Analog Watch",
+        "descricao": "This is a simple product called Luma Analog Watch",
         "preco": "$43.00"
     },
     {
-        "titulo": "Bolo Sport Watch",
-        "conteudo": "This is a simple product called Bolo Sport Watch",
+        "produto": "Bolo Sport Watch",
+        "descricao": "This is a simple product called Bolo Sport Watch",
         "preco": "$49.00"
     },
     {
-        "titulo": "Clamber Watch",
-        "conteudo": "This is a simple product called Clamber Watch",
+        "produto": "Clamber Watch",
+        "descricao": "This is a simple product called Clamber Watch",
         "preco": "$54.00"
     },
     {
-        "titulo": "Didi Sport Watch",
-        "conteudo": "This is a simple product called Didi Sport Watch",
+        "produto": "Didi Sport Watch",
+        "descricao": "This is a simple product called Didi Sport Watch",
         "preco": "$92.00"
     },
     {
-        "titulo": "Aim Analog Watch",
-        "conteudo": "This is a simple product called Aim Analog Watch",
+        "produto": "Aim Analog Watch",
+        "descricao": "This is a simple product called Aim Analog Watch",
         "preco": "$45.00"
     },
     {
-        "titulo": "Endurance Watch",
-        "conteudo": "This is a simple product called Endurance Watch",
+        "produto": "Endurance Watch",
+        "descricao": "This is a simple product called Endurance Watch",
         "preco": "$49.00"
     },
     {
-        "titulo": "Summit Watch",
-        "conteudo": "This is a simple product called Summit Watch",
+        "produto": "Summit Watch",
+        "descricao": "This is a simple product called Summit Watch",
         "preco": "$54.00"
     }
 ]

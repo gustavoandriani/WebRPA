@@ -10,6 +10,7 @@ from selenium.webdriver.chrome.options import Options
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 import json
+import csv
 import time
 
 
@@ -17,7 +18,7 @@ class FirstScraper:
     def __init__(self):
         self.options = Options()
         self.options.add_argument("--headless=new")
-        #self.options.add_argument("--disable-blink-features=AutomationControlled")
+        self.options.add_argument("--disable-blink-features=AutomationControlled")
         self.driver = webdriver.Chrome(options=self.options)
         self.wait = WebDriverWait(self.driver, 10)
         self.produtos = []
@@ -50,10 +51,10 @@ class FirstScraper:
             self.driver.get(url)
             print(f"\n👉 Acessando produto: {url}")
             produto = {
-                "titulo": self.wait.until(
+                "produto": self.wait.until(
                     EC.visibility_of_element_located((By.CSS_SELECTOR, "h1.product_title"))
                 ).text,
-                "conteudo": self.wait.until(
+                "descricao": self.wait.until(
                     EC.visibility_of_element_located(
                         (By.CSS_SELECTOR, "div.woocommerce-product-details__short-description"))
                 ).text,
@@ -73,6 +74,15 @@ class FirstScraper:
         with open(filename, 'w', encoding='utf-8') as f:
             json.dump(self.produtos, f, ensure_ascii=False, indent=4)
         print("✅ Arquivo salvo com sucesso ")
+    
+    def salvar_csv(self, filename):
+        print(f"\n💾 Salvando resultados em {filename}...")
+        with open(filename, 'w', newline='', encoding='utf-8') as f:
+            writer = csv.DictWriter(f, fieldnames=self.produtos[0].keys())
+            writer.writeheader()
+            writer.writerows(self.produtos)
+        print("✅ Arquivo salvo com sucesso ")
+        
 
     def executar_scraping(self, termo_pesquisa):
         try:
@@ -86,6 +96,7 @@ class FirstScraper:
                 time.sleep(1)
 
             self.salvar_json(f'{termo_pesquisa}.json')
+            self.salvar_csv(f'{termo_pesquisa}.csv')
         finally:
             self.driver.quit()
             print("\n🛑 Navegador finalizado 🔥")
