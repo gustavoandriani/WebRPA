@@ -27,10 +27,10 @@ class FirstScraper:
 
     def fazer_pesquisa(self, termo):
         print(f"\n🔍 Pesquisando por '{termo}'...")
-        self.driver.get("https://www.scrapingcourse.com/ecommerce/")
+        self.driver.get("https://www.kabum.com.br/")
         # Realiza a busca pelo componente do tipo input search
         search_box = self.wait.until(
-            EC.presence_of_element_located((By.CSS_SELECTOR, "input[type='search']"))
+            EC.presence_of_element_located((By.CSS_SELECTOR, "input#input-busca"))
         )
         search_box.send_keys(termo) # Adicionao conteudo ao campo
         search_box.submit() # Envia o formulario
@@ -39,7 +39,7 @@ class FirstScraper:
     def coletar_links_produtos(self):
         print("\n📦 Coletando links dos produtos...")
         elements = self.wait.until(  
-            EC.presence_of_all_elements_located((By.CSS_SELECTOR, 'a.woocommerce-LoopProduct-link'))
+            EC.presence_of_all_elements_located((By.CSS_SELECTOR, 'a.productLink'))
         )
         # Contabiliza a quantidade de produtos
         links = [element.get_attribute("href") for element in elements]
@@ -51,16 +51,13 @@ class FirstScraper:
             self.driver.get(url)
             print(f"\n👉 Acessando produto: {url}")
             produto = {
-                "produto": self.wait.until(
-                    EC.visibility_of_element_located((By.CSS_SELECTOR, "h1.product_title"))
+                "Produto": self.wait.until(
+                    EC.visibility_of_element_located((By.CSS_SELECTOR, "h1.brTtKt"))
                 ).text,
-                "descricao": self.wait.until(
-                    EC.visibility_of_element_located(
-                        (By.CSS_SELECTOR, "div.woocommerce-product-details__short-description"))
+                "Preço": self.wait.until(
+                    EC.visibility_of_element_located((By.CSS_SELECTOR, "h4.finalPrice"))
                 ).text,
-                "preco": self.wait.until(
-                    EC.visibility_of_element_located((By.CSS_SELECTOR, "p.price"))
-                ).text
+                "Link": url
             }
             print("✅ Dados extraídos com sucesso")
             return produto
